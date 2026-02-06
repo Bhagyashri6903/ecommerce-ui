@@ -1,16 +1,19 @@
-# React + Vite
+# E-Commerce UI Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React + Vite based E-Commerce frontend user interface project.
 
-Currently, two official plugins are available:
+# For Running Locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   git clone https://github.com/Bhagyashri6903/ecommerce-ui.git
 
-## React Compiler
+2. Go into the project folder:
+   cd ecommerce-ui
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Install dependencies:
+   npm install
 
-## Expanding the ESLint configuration
+4. Start the development server:
+   npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open the localhost link shown in the terminal to view the project in the browser.
